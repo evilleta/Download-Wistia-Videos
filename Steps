@@ -1,0 +1,8 @@
+Download and install Wistia Video Downloader, a Chrome browser extension from https://chromewebstore.google.com/detail/wistia-video-downloader/acbiaofoeebeinacmcknopaikmecdehl 
+Right-click on the playing video, select Copy link
+Find Wistia video ID in the copied link e.g. wvideo=tra6gsm6rl
+Alternative way: Look for e.g. hashedId=tra6gsm6rl in the page source
+Load http://fast.wistia.net/embed/iframe/ + video ID in your browser
+Look for "type":"original" in the page source and copy the URL from the next line e.g. "url":"http://embed.wistia.com/deliveries/129720d1762175bcd8e06dcab926ec76ad38ff00.bin"
+Alternative way: Look for "type":"hd_mp4_video"
+Download the video from the URL with .mp4 extension instead of .bin
